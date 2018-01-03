@@ -1,0 +1,10 @@
+{
+  "name": "saltandlimeng1",
+  "description": "A Salt and Lime starter project for AngularJS",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "angularfire": "^2.3.0"
+  }
+}

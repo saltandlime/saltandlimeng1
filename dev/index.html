@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <script src="ng/init.js"></script>
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div ng-view></div>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="bower_components/firebase/firebase.js"></script>
+        <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyD_ByF1mm2arFv8DgeQFp_9Zm9kSKR8T3k",
+                authDomain: "saltandlimeng1.firebaseapp.com",
+                databaseURL: "https://saltandlimeng1.firebaseio.com",
+                projectId: "saltandlimeng1",
+                storageBucket: "",
+                messagingSenderId: "204290413621"
+            };
+            firebase.initializeApp(config);
+        </script>
+
+        <script src="ng/app.js"></script>
+        <script src="ng/controller/AppCtrl.js"></script>
+        <script src="ng/controller/LoginCtrl.js"></script>
+        <script src="ng/factory/AuthFactory.js"></script>
+
+    </body>
+</html>
