@@ -4,7 +4,7 @@
   "description": "A Salt and Lime starter project for AngularJS",
   "main": "index.js",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install"
   },
   "author": "",
   "license": "ISC",
@@ -20,8 +20,5 @@
     "grunt-ng-annotate": "^3.0.0",
     "grunt-preprocess": "^5.1.0",
     "jshint": "^2.9.5"
-  },
-  "dependencies": {
-    "angular": "^1.6.8"
   }
 }
