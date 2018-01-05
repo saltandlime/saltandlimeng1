@@ -1,7 +1,7 @@
 {
   "name": "SaltandLimeNg1",
   "version": "0.0.1",
-  "description": "A Salt and Lime starter project for AngularJS",
+  "description": "A Salt and Lime starter project for AngularJS with Firebase authentication",
   "main": "index.js",
   "scripts": {
     "postinstall": "bower install"
